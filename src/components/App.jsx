@@ -4,6 +4,7 @@ import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import Filter from './Filter';
 import Notiflix, { Report } from "notiflix";
+import css from './App.module.css';
 
 export class App extends Component {
   state = {
@@ -57,7 +58,7 @@ export class App extends Component {
   render() {
     const visibleContacts = this.getContacts();
     return (
-      <div>
+      <div className={css.Container}>
         <h1>Phonebook</h1>
         <ContactForm
           addContact={this.addContact}
