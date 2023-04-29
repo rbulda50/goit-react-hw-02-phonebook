@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import Filter from './Filter';
-import Notiflix, { Report } from "notiflix";
+import Notiflix from "notiflix";
 import css from './App.module.css';
 
 export class App extends Component {
