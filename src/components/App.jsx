@@ -61,7 +61,6 @@ export class App extends Component {
       <div className={css.Container}>
         <h1>Phonebook</h1>
         <ContactForm
-          addContact={this.addContact}
           onSubmit={this.addContact} />
 
         <h2>Contacts</h2>
